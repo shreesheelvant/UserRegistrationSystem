@@ -23,6 +23,11 @@ public class UserRegistration {
                 System.out.println("Enter mobile number");
                 String mobileNumber = scanner.next();
                 System.out.println(Pattern.matches("[+]91 [6-9]\\d{9}", mobileNumber));
+
+                System.out.println("Enter PasswordRule1");
+                String PasswordRule1 = scanner.next();
+                System.out.println(Pattern.matches("[a-z A-Z]{8}",PasswordRule1));
+
     }
 }
 
